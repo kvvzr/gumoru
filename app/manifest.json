@@ -1,0 +1,21 @@
+{
+  "name": "__MSG_appName__",
+  "version": "0.0.16",
+  "manifest_version": 2,
+  "description": "__MSG_appDescription__",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://piyo.fc2.com/soramaru/*"
+      ],
+      "js": [
+        "scripts/sora.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "default_locale": "ja"
+}
